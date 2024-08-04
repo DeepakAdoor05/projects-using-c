@@ -1,1 +1,2 @@
-# Rock Paper Scissor Game
+# Projects
+Rock Paper Scissor Game
