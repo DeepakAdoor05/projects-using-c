@@ -1,6 +1,6 @@
 #include<stdio.h>
-#include<stdlib.h>
-#include<time.h>
+#include<stdlib.h> // to call fns srand and rand
+#include<time.h> // to get random value in time
 int main()
 {
     int choice,c_chose,win=0,tie=0;
@@ -20,8 +20,8 @@ int main()
         }
         else
         {
-            srand(time(0));
-            c_chose = rand()%3;
+            srand(time(0)); // Set the seed for random number generation.
+            c_chose = rand()%3; // Generate a random value from (0,1,2).
             printf("Computer chose:%d\n",c_chose);
             if (c_chose == choice)
             {
